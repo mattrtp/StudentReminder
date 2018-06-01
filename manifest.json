@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "StudentReminder",
+    "version": "1.0",
+    "description": "Adds a reminder to the page when browsing a website that provides a student discount.",
+	"permissions": [
+					"*://*/*",
+					"<all_urls>",
+					"tabs"
+					],
+	"background": {
+		"scripts": ["background.js"]
+	}
+}
